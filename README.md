@@ -2,12 +2,12 @@
 # arduino-incubator
 simple design for an icubator using common breakout boards
 six parameters are set through the matrix keypad:
-      "Temp Off","degC",
-      "Temp On","degC",
-      "Turn active","Y/N",
-      "Humidity","%",
-      "Frequency","hrs",
-      "turn stop","day".
+- "Temp Off","degC",
+- "Temp On","degC",
+- "Turn active","Y/N",
+ - "Humidity","%",
+ - "Frequency","hrs",
+ - "turn stop","day".
  
   A tone buzzer is included to sound an alarm should there be a deviation from the set parameters.
 
