@@ -16,7 +16,7 @@ A crack mechanism driven by a synchronous ac motor is used to turn the trays. Gi
 
  
   A tone buzzer is included to sound an alarm should there be a deviation from the set parameters.
-
+## Libraries used
 the following libraries were used in development.
 - paulstoffregen/OneWire@^2.3.5
 - milesburton/DallasTemperature@^3.9.1
