@@ -8,6 +8,12 @@ six parameters are set through the matrix keypad:
  - "Humidity","%",
  - "Frequency","hrs",
  - "turn stop","day".
+
+## Temperature control 
+The temperature control system uses a feedback on off controller based on a SPDT relay and DS18B20 temperature sensor to maintain the set temperature .
+## Turning mechanism
+A crack mechanism driven by a synchronous ac motor is used to turn the trays. Given the motor rpm as 5 revolutions per minute, the angular position of the crank can be translated to a particular inclination . Switching the motor on for some seconds say 6 second will get the crank to the top dead centre and another 6 seconds will get it to  the bottonm dead centre. The interval between these successive turns can be set through the lcdc menu. After 18  days ,the turning mechanism should be stopped, this can be achieved using lcd menu
+
  
   A tone buzzer is included to sound an alarm should there be a deviation from the set parameters.
 
@@ -21,3 +27,5 @@ the following libraries were used in development.
 - sstaub/Ticker@^4.2.0
 - marcoschwartz/LiquidCrystal_I2C@^1.1.4
 - adafruit/Adafruit Unified Sensor@^1.1.4
+
+
