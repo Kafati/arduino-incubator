@@ -27,5 +27,15 @@ the following libraries were used in development.
 - sstaub/Ticker@^4.2.0
 - marcoschwartz/LiquidCrystal_I2C@^1.1.4
 - adafruit/Adafruit Unified Sensor@^1.1.4
+## How to connect the sensors
 
-
+Connect the sensors as per the schematic shown below
+## How to run this code 
+1. Clone this repository using the command <code> git clone https://github.com/Kafati/arduino-incubator.git</code>
+2. Navigate into the direcrory and open <strong> incubator.ino </strong> using your arduino IDE
+3. On your arduino IDE click on the Sketch tab at the top left corner , choose manage libries then choose library manager.
+4. On the library manager , click search and enter the libraries mentioned above and click install on each of them. 
+5. Once all libraries are installed , connect your arduino board 
+6.  Click on the tools tab on the ribbon,navigate to the boards menu and select arduino Uno.
+7.  Click on the tools tab on the ribbon,navigate to the ports menu and select the port on which your board is connected.( If you are not sure you can check on the device manager in control panel)
+8. click upload (a right facing arrow at the top left corner ofthe ribbon). And wait for arduino to compile the code for you then upload it. 
