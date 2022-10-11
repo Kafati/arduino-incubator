@@ -1,4 +1,3 @@
-#include <Arduino.h>
 #include <OneWire.h>
 #include <DallasTemperature.h>
 #include <LiquidCrystal_I2C.h>
